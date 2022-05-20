@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: white;
+    display: flex; 
+    left: 10px;    
+    justify-content: center; 
+    align-items: center;
+    height: 100px;
+    top: 50px;
+}
+
+.cuatro {
+    
+    height: 35px;
+    width: 35px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    font-weight: lighter;
+   
+}
+header p{
+    font-size: 10px;
+    text-align: center;
+}
+
+.rent {
+color: rgb(218, 199, 199);
+}
+
+.topButtons{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+
+    
+}
+
+.boton{
+    padding: 20px;
+    background-color: white;
+    border: 1px solid rgb(196, 192, 192);
+    margin-top: 0;
+}
+
+#fotoPrincipal{
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 400px;
+}
+
+
+
+#bajofotoPrincipal{
+    height: 30px;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    width: 100%;
+    
+    }
+
+    #fotoYParrafo{
+
+        display: block;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+         margin-right: auto;
+         width: 700px;
+        
+    }
+
+#roundedImage1{
+    display: inline-block; 
+    position: relative; 
+    height: 200px; 
+    overflow: hidden; 
+    border-radius: 50%;
+    top: 10px;
+    margin: 20px;
+    
+   
+}
+
+#roundedImage2{
+    display: inline-block; 
+    position: relative; 
+    height: 200px; 
+    overflow: hidden; 
+    border-radius: 50%;
+    top: 10px;
+    margin: 20px;
+}
+
+#roundedImage3{
+    display: inline-block; 
+    position: relative; 
+    height: 200px; 
+    overflow: hidden; 
+    border-radius: 50%;
+    top: 10px;
+    margin: 20px;
+}
+
+#roundedImage4{
+    display: inline-block; 
+    position: relative; 
+    height: 200px; 
+    overflow: hidden; 
+    border-radius: 50%;
+    top: 10px;
+    margin: 20px;
+}
+.roundImg{
+    width: auto; 
+    height: 100%; 
+    
+}
+
+#allRounded{
+    display: flex;
+    justify-content: center;
+    width: 100%
+  
+}
+
+.cajaRoundImg{
+    display: block;
+    justify-content: center;
+    align-items: flex-end;
+    width: 25%;
+    text-align: center
+}
+
+.underRoundImg{
+    text-align: center;
+    margin: 10px
+}
+
+.combinados{
+    margin: 0 100px ;
+}
+ 
+.buttomRound{
+    padding: 10px;
+}
+
+
+.iconBoxes{
+display: inline-block;
+width: 100%;
+margin-top: 50px;
+}
+
+.iconBox1{
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+.iconBox2{
+    width: 50%;
+    float: right;
+    text-align: left;
+    
+}
